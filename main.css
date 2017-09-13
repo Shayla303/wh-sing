@@ -1,0 +1,330 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Dancing Script', cursive;}
+
+body,
+html, {
+  width: 100%;
+  height: 100;
+  margin: 0;
+}
+
+header {
+  color: #020002;
+  height: 25px;
+  margin-bottom: 30px;
+  width: 107%;
+  }
+
+  h1 {
+   color: #800000;
+   font-size: 65px;
+   font-family: 'Permanent Marker', cursive;
+   margin-left:  650px;
+   margin-top: 57px;
+  }
+
+
+  #mic-logo {
+    height: 59px;
+    margin-left: 10px;
+    margin-top: 78px;
+    width: 75px;
+  }
+
+  #mic-logo:hover {
+  background-image:url("images/WhiteMIc.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+#title {
+  font-family: 'Permanent Marker', cursive;
+  margin-left: -600px;
+}
+
+
+#admin-logo {
+  display: inline;
+  height: 28px;
+  margin-left: 1160px;
+  margin-top: -167px;
+  width: 50px;
+}
+
+#admin {
+  color: white;
+  display: inline;
+  margin-left: 1216px;
+  margin-top: -162px;
+}
+
+#admin:hover{
+  color: #800000;
+}
+
+#music-key {
+  display: inline;
+  height: 36px;
+  margin-left: 4px;
+  margin-bottom: -13px;
+  margin-top: -20px;
+  width: 14px;
+}
+
+
+#groupIconA,
+#groupIconB,
+#groupIconC {
+  color: white;
+  height: 45px;
+  margin: 0 0 0 4px;
+  margin-top: 80px;
+  width: 75px;
+}
+
+#groupIconA,
+#groupIconB,
+#groupIconC :hover {
+  color: #800000;
+}
+
+#groupIconA:hover {
+  color: #800000;
+}
+
+
+#header,
+#play {
+  color: white;
+  font-size: 23px;
+  margin: 0 0 0 10px;
+  margin-top: 100px;
+  margin-left: -5px;
+}
+
+#video{
+  color: #800000;
+  font-size: 23px;
+  margin: 0 0 0 10px;
+  margin-top: 100px;
+  margin-left: -5px;
+}
+
+#header:hover{
+  color: #800000;
+}
+
+#play:hover{
+  color: #800000;
+}
+
+.nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 147px;
+  width: 1460px;
+  background: #020002;
+  margin: -9px;
+  align-items:flex-start;
+}
+
+.card-container {
+  background-color: #9D9DA2;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-content: center;
+  width: 106%;
+}
+
+.card-item {
+  background-color: #D2D2D7;
+  display: flex;
+  display: inline-block;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 455px;
+  margin: 10px;
+  margin-left: 45px;
+  width: 295px;
+ }
+
+.card-item  {
+  -moz-box-shadow:    inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow:         inset 0 0 10px #000000;
+}
+
+.icon {
+  width: 50px;
+  height: 75px;
+  padding: 5px;
+  margin-top: -188px;
+}
+
+.section-one {
+  background-image: cover;
+  width: 295px;
+  height: 185px;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.section-one:hover {
+  opacity: .6;
+}
+
+.section-two {
+  width: 295px;
+  height: 185px;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+.section-two:hover {
+  opacity: .6;
+}
+
+.section-three {
+  width: 295px;
+  height: 185px;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.section-three:hover {
+  opacity: .6;
+}
+.section-four {
+  width: 295px;
+  height: 185px;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.section-four:hover {
+  opacity: .6;
+}
+.section-five {
+  width: 295px;
+  height: 185px;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.section-five:hover {
+  opacity: .6;
+}
+.section-six {
+  width: 295px;
+  height: 185px;
+  background-repeat: no-repeat;
+  margin: 0;
+  }
+
+.section-six:hover {
+  opacity: .6;
+  }
+
+.section-seven {
+  width: 295px;
+  height: 185px;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.section-seven:hover {
+  opacity: .6;
+}
+.section-eight {
+  width: 295px;
+  height: 185px;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.section-eight:hover {
+  opacity: .6;
+}
+
+.view {
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 222px;
+  margin-top: -165px;
+  color: #800000;
+}
+
+.counter {
+ margin-left: 235px;
+ font-size: 22px;
+ font-weight: bold;
+ margin-top: -16px;
+ color: #800000;
+}
+
+h2,
+#nameWh {
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+#Wdate {
+  color: #800000;
+  font-weight: bolder;
+  margin-left: 12px;
+  margin-top: -20px;
+  word-spacing: 4px;
+}
+
+.blockbox {
+  height: 60px;
+  margin-left: 10px;
+  width: 260px;
+  background-color: #4C4A4C;
+}
+
+#url {
+  margin-top: -38px;
+  margin-left: 28px;
+  position: absolute;
+  color: white;
+}
+
+#url:hover{
+  color: #800000;
+}
+
+.playlist {
+  color: #800000;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+
+.playName {
+  margin-left: 10px;
+  margin-top: -15px;
+}
+
+.list {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left:  10px;
+  margin-top: -5px;
+}
+
+.count {
+  color: #800000;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: -10px;
+}
